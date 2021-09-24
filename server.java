@@ -17,7 +17,7 @@ public class server{
     try{
 
     serverSocket = new ServerSocket(63400);
-    clinetSocket = serverSocket.accept();
+    clientSocket = serverSocket.accept();
     //Creates reader
     bufferedReader = new BufferedReader(new InputStreamReader(clientSocket.getInputStream()));
 
